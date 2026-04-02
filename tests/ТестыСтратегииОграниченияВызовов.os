@@ -1,5 +1,3 @@
-// BSLLS:LatinAndCyrillicSymbolInWord-off
-
 #Использовать asserts
 #Использовать "fixtures"
 #Использовать ".."
