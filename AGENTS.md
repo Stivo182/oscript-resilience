@@ -28,6 +28,8 @@
 - Точечный запуск отдельного теста: `1testrunner tests\Тесты.os ИмяТеста`
 - Полный запуск всех тестов: `oscript tasks/test.os`
 - Запуск покрытия: `oscript tasks/coverage.os`
+- Запуск конкретного бенчмарка: `benchos run benchmarks/Бенчмарк.os`
+- Запуск всех бенчмарков: `benchos run benchmarks`
 
 ### Соглашения
 
