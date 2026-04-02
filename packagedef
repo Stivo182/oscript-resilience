@@ -4,7 +4,7 @@
     .АдресАвтора("https://github.com/Stivo182")
     .АдресРепозитория("https://github.com/Stivo182/oscript-resilience")
     .Описание("Resilience-библиотека для OneScript")
-    .ВерсияСреды("1.9.2")
+    .ВерсияСреды("1.9.3")
     .ВключитьФайл("src")
     .ВключитьФайл("docs")
     .ВключитьФайл("samples")
