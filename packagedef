@@ -1,5 +1,5 @@
 ﻿Описание.Имя("resilience")
-    .Версия("0.1.0")
+    .Версия("0.2.0")
     .Автор("Dmitry Ivanov")
     .АдресАвтора("https://github.com/Stivo182")
     .АдресРепозитория("https://github.com/Stivo182/oscript-resilience")
