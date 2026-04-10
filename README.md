@@ -1,5 +1,9 @@
 # resilience
 
+[![Release](https://img.shields.io/github/release/Stivo182/oscript-resilience.svg)](https://github.com/Stivo182/oscript-resilience/releases)
+[![Тестирование](https://github.com/stivo182/oscript-resilience/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/stivo182/oscript-resilience/actions/workflows/test.yml)
+[![Used by](https://litrosbadges.ru/package/resilience.svg)](https://litrosbadges.ru/package/resilience)
+
 <div>
 	<a href="docs/README.md">Документация</a>
 	<span> · </span>
