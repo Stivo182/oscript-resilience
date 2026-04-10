@@ -3,6 +3,6 @@ Intel Core i7-8700 CPU 3.20GHz (Coffee Lake), 1 CPU, 12 logical and 6 physical c
 
 | Method                                           |     Mean |    StdErr |    StdDev |  Op/s | Allocated |
 |--------------------------------------------------|---------:|----------:|----------:|------:|----------:|
-| Retry + Circuit Breaker + Timeout                | 202.3 us |  1.474 us |  5.710 us | 4,943 |  81.52 KB |
-| Retry + Circuit Breaker + Rate Limiter + Timeout | 234.7 us |  1.559 us |  6.038 us | 4,262 |  92.43 KB |
-| Retry + Timeout                                  | 397.2 us | 15.187 us | 58.818 us | 2,517 |  72.07 KB |
+| Retry + Circuit Breaker + Timeout                | 215.2 us |  2.125 us |  8.230 us | 4,646 |  85.84 KB |
+| Retry + Circuit Breaker + Rate Limiter + Timeout | 237.2 us |  3.647 us | 14.124 us | 4,216 |  97.44 KB |
+| Retry + Timeout                                  | 405.1 us | 12.855 us | 49.789 us | 2,469 |  75.63 KB |
