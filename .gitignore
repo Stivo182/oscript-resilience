@@ -3,5 +3,8 @@ out/
 oscript_modules/
 *.ospx
 
+# Git
+.worktrees/
+
 # VS Code
 .vscode/
