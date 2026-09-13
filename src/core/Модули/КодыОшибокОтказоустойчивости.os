@@ -45,7 +45,7 @@
 // Возвращаемое значение:
 //   Строка
 Функция ОтклонениеИзмененияОграниченийПараллелизма() Экспорт
-	Возврат "resilience.parallelism.configuration_change_rejected";
+	Возврат "resilience.parallelism.reconfiguration_rejected";
 КонецФункции
 
 // Возвращает код ошибки разомкнутого предохранителя.

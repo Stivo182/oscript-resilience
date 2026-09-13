@@ -24,7 +24,7 @@
 		.Равно("resilience.parallelism.slot_not_acquired");
 	Ожидаем
 		.Что(КодыОшибокОтказоустойчивости.ОтклонениеИзмененияОграниченийПараллелизма())
-		.Равно("resilience.parallelism.configuration_change_rejected");
+		.Равно("resilience.parallelism.reconfiguration_rejected");
 	Ожидаем
 		.Что(КодыОшибокОтказоустойчивости.РазомкнутыйПредохранитель())
 		.Равно("resilience.circuit.open");

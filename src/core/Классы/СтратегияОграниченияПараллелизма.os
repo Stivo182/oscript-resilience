@@ -93,7 +93,7 @@
 //
 // Исключения:
 //   argument.out_of_range - Лимит параллелизма не больше 0
-//   resilience.parallelism.configuration_change_rejected - Есть выполняющиеся или ожидающие операции
+//   resilience.parallelism.reconfiguration_rejected - Есть выполняющиеся или ожидающие операции
 Функция УстановитьЛимитПараллелизма(ЛимитПараллелизма) Экспорт
 
 	Если ЛимитПараллелизма <= 0 Тогда
@@ -119,7 +119,7 @@
 //
 // Исключения:
 //   argument.out_of_range - Лимит очереди меньше 0
-//   resilience.parallelism.configuration_change_rejected - Есть выполняющиеся или ожидающие операции
+//   resilience.parallelism.reconfiguration_rejected - Есть выполняющиеся или ожидающие операции
 Функция УстановитьЛимитОчереди(ЛимитОчереди) Экспорт
 
 	Если ЛимитОчереди < 0 Тогда
@@ -145,7 +145,7 @@
 //
 // Исключения:
 //   argument.out_of_range - Максимальное ожидание слота меньше 0
-//   resilience.parallelism.configuration_change_rejected - Есть выполняющиеся или ожидающие операции
+//   resilience.parallelism.reconfiguration_rejected - Есть выполняющиеся или ожидающие операции
 Функция УстановитьМаксимальноеОжиданиеСлота(МаксимальноеОжиданиеСлота) Экспорт
 
 	Если МаксимальноеОжиданиеСлота < 0 Тогда
