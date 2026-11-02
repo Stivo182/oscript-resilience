@@ -55,6 +55,7 @@
 //   resilience.parallelism.rejected - Все слоты заняты, очередь ожидания заполнена
 //   resilience.parallelism.wait_timeout - Истекло максимальное время ожидания слота
 //   resilience.operation.cancelled - Операция отменена по сигналу прерывания
+//   resilience.operation.deadline_exceeded - Истек срок операции
 Функция Применить(
 	Операция,
 	Параметры = Неопределено,
